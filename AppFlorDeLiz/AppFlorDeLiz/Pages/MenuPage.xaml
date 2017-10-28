@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFlorDeLiz.Pages.MenuPage"
+             Title="Flor de Liz">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            <Button Text="Coleções"
+                   Image="icone_colecoes.png"
+                   Clicked="ColecoesOnClicked"/>
+            <Button Text="Sapatos"
+                    Image="icone_sapatos.png"
+                    Clicked="SapatosOnClicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
