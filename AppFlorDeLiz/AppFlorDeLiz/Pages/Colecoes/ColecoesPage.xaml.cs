@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace AppFlorDeLiz.Pages.Colecoes
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ColecoesPage : ContentPage
+    public partial class ColecoesPage : TabbedPage
     {
-        public ColecoesPage()
+        public ColecoesPage ()
         {
             InitializeComponent();
         }

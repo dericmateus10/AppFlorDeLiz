@@ -108,7 +108,10 @@
     <None Include="AppFlorDeLiz.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="icone_colecaonew.png" />
     <Content Include="icone_colecoes.png" />
+    <Content Include="icone_list.png" />
+    <Content Include="icone_new.png" />
     <Content Include="icone_sapatos.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-100.png" />
@@ -158,6 +161,14 @@
       <Project>{7ec59695-3b63-4fcb-91a0-1fa3dba2db76}</Project>
       <Name>AppFlorDeLiz</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.VCLibs, Version=14.0">
+      <Name>Visual C++ 2015 Runtime for Universal Windows Platform Apps</Name>
+    </SDKReference>
+    <SDKReference Include="SQLite.UWP.2015, Version=3.21.0">
+      <Name>SQLite for Universal Windows Platform</Name>
+    </SDKReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

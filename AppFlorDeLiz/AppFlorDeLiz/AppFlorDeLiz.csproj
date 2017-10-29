@@ -38,10 +38,25 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Converters\ByteToImageSourceConverter.cs" />
+    <Compile Include="Dal\ColecaoDAL.cs" />
+    <Compile Include="Dal\SapatoDAL.cs" />
+    <Compile Include="HelperControls\ListViewGrouping.cs" />
+    <Compile Include="Infraestructure\IDatabaseConnection.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Modelo\Colecao.cs" />
+    <Compile Include="Modelo\Sapato.cs" />
+    <Compile Include="Pages\Colecoes\ColecoesEditPage.xaml.cs">
+      <DependentUpon>ColecoesEditPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Colecoes\ColecoesListPage.xaml.cs">
+      <DependentUpon>ColecoesListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Colecoes\ColecoesNewPage.xaml.cs">
+      <DependentUpon>ColecoesNewPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Colecoes\ColecoesPage.xaml.cs">
       <DependentUpon>ColecoesPage.xaml</DependentUpon>
     </Compile>
@@ -104,15 +119,32 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <EmbeddedResource Include="Pages\Colecoes\ColecoesPage.xaml">
+    <EmbeddedResource Include="Pages\Colecoes\ColecoesEditPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Pages\Sapatos\SapatosPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\Colecoes\ColecoesListPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\Colecoes\ColecoesNewPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\Colecoes\ColecoesPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

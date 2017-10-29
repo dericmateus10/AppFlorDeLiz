@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppFlorDeLiz.Pages.Colecoes.ColecoesPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
-</ContentPage>
+  <!--Pages can be added as references or inline-->
+    <TabbedPage.Children>
+        <ep:ProdutosListPage Title="Listagem Coleções"
+                             Icon="icone_list.png" 
+                             x:Name="listagem"/>
+        <ep:ProdutosNewPage Title="Inserir Nova Coleção"
+                            Icon="icone_new.png"
+                            x:Name="inserir"/>
+    </TabbedPage.Children>
+</TabbedPage>
