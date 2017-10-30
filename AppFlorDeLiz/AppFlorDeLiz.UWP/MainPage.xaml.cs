@@ -21,6 +21,8 @@ namespace AppFlorDeLiz.UWP
         {
             this.InitializeComponent();
 
+            Xamarin.FormsMaps.Init("hZquJOh79rAkwQNvknu4~IEV41uYX5i7CrQbnUBb-RQ~Aof2A_nIHLS_1-dCMLGQbMgF5kETTNlet7O9b-kiiRnjjo9cDXjAaa-EmszL5wcp");
+
             LoadApplication(new AppFlorDeLiz.App());
         }
     }
