@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using AppFlorDeLiz.Infraestructure;
 using AppFlorDeLiz.Modelo;
 using SQLite.Net;
-using SQLiteNetExtensions.Attributes;
+using SQLiteNetExtensions.Extensions;
 using Xamarin.Forms;
 
 namespace AppFlorDeLiz.Dal
@@ -26,10 +26,10 @@ namespace AppFlorDeLiz.Dal
             return (from t in sqlConnection.Table<Colecao>() select t).OrderBy(i => i.Nome).ToList();
         }
 
-        //public IEnumerable<Colecao> GetAllWithChildren()
-        //{
-        //    return sqlConnection.GetAllWithChildren<Colecao>().OrderBy(i => i.Nome).ToList();
-        //}
+        public IEnumerable<Colecao> GetAllWithChildren()
+        {
+            return sqlConnection.GetAllWithChildren<Colecao>().OrderBy(i => i.Nome).ToList();
+        }
 
         public Colecao GetItemById(long id)
         {

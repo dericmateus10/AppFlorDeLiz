@@ -60,8 +60,20 @@
     <Compile Include="Pages\Colecoes\ColecoesPage.xaml.cs">
       <DependentUpon>ColecoesPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Colecoes\ColecoesSearchPage.xaml.cs">
+      <DependentUpon>ColecoesSearchPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\MenuPage.xaml.cs">
       <DependentUpon>MenuPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Sapatos\Controls\GridCustomControls.xaml.cs">
+      <DependentUpon>GridCustomControls.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Sapatos\SapatosEditPage.xaml.cs">
+      <DependentUpon>SapatosEditPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Sapatos\SapatosNewPage.xaml.cs">
+      <DependentUpon>SapatosNewPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Sapatos\SapatosPage.xaml.cs">
       <DependentUpon>SapatosPage.xaml</DependentUpon>
@@ -126,12 +138,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Pages\Sapatos\SapatosPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Pages\Colecoes\ColecoesListPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
@@ -145,6 +151,37 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Pages\Colecoes\ColecoesPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\Colecoes\ColecoesSearchPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\Sapatos\SapatosEditPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\Sapatos\SapatosNewPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\Sapatos\SapatosPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\Sapatos\Controls\GridCustomControls.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
