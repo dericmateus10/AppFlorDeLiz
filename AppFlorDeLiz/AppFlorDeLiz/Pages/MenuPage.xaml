@@ -11,6 +11,9 @@
             <Button Text="Sapatos"
                     Image="icone_sapatos.png"
                     Clicked="SapatosOnClicked"/>
+            <Button Text="Clientes"
+                    Image="icone_clientes.png"
+                    Clicked="ClientesOnClicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

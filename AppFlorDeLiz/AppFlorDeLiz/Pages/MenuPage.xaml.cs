@@ -1,5 +1,6 @@
 ﻿using AppFlorDeLiz.Pages.Colecoes;
 using AppFlorDeLiz.Pages.Sapatos;
+using AppFlorDeLiz.Pages.Clientes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,6 +28,11 @@ namespace AppFlorDeLiz.Pages
         private async void SapatosOnClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new SapatosPage());
+        }
+
+        private async void ClientesOnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ClientesListPage());
         }
     }
 }

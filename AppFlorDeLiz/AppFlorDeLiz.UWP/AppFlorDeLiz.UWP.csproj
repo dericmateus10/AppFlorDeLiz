@@ -109,6 +109,7 @@
     <None Include="AppFlorDeLiz.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="icone_clientes.png" />
     <Content Include="icone_colecaonew.png" />
     <Content Include="icone_colecoes.png" />
     <Content Include="icone_list.png" />
